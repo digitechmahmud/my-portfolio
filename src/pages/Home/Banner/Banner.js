@@ -1,18 +1,16 @@
 import React from 'react';
-import banner from '../../../assets/images/banner.png';
+import banner from '../../../assets/images/bg.png';
 
 const Banner = () => {
-
-    // const imageUrl = window.innerWidth >= 650 ? desktopImage : mobileImage;
     return (
-        <div>
-            <div className="hero min-h-screen " style={{ backgroundImage: `url("https://github.com/digitechmahmud/images/blob/main/banner.png")` }}>
+        <div id='home'>
+            <div className="hero min-h-screen" style={{ backgroundImage: `url(${banner})` }}>
                 <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-center text-neutral-content">
-                    <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className="btn btn-primary">Get Started</button>
+                    <div className="">
+                        <h1 className="mb-5 text-5xl font-bold">HEY, I'M MAHMUDUL HASSAN</h1>
+                        <p className="mb-5">A Frontend focused Web Developer building the Frontend of Websites and<br/> Web Applications that leads to the success of the overall product</p>
+                        <a href='https://drive.google.com/uc?export=download&id=1Eass99E3KSDLh0wURS0g9t-6zco1q8T9'><button className="btn btn-accent">My Resume</button></a>
                     </div>
                 </div>
             </div>

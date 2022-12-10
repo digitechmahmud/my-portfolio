@@ -1,15 +1,16 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
+import logo from '../../../assets/logo/logo.png';
 
 const Navbar = () => {
 
     const menuItems = <>
-    <li><Link to='/'>Home</Link></li>
-    <li><Link to='/'>Portfolio</Link></li>
-    <li><Link to='/'>Contact</Link></li>
+        <li><HashLink smooth to='/#home'>Home</HashLink></li>
+        <li><HashLink smooth to='/#portfolio'>Portfolio</HashLink></li>
+        <li><HashLink smooth to='/#contact'>Contact</HashLink></li>
     </>
     return (
-        <div>
+        <div className='mb-20'>
             <div className="navbar z-10 top-0 fixed bg-base-100">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -22,7 +23,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+                    <a className="btn btn-ghost normal-case text-xl"><img width={40} src={logo} alt="" /></a>
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle">
