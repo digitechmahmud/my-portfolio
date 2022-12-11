@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('project.json')
+        fetch('https://my-portfolio-server-gamma.vercel.app/portfolio')
             .then(res => res.json())
             .then(data => setProjects(data));
     },[])
@@ -18,12 +19,9 @@ const Portfolio = () => {
                         </figure>
                         <div className="card-body ">
                             <h2 className="card-title">Project Name: {project.name}</h2>
-                            <p>Fetures:</p>
-                            <p>*{project.feture1}</p>
-                            <p>*{project.feture2}</p>
-                            <p>*{project.feture3}</p>
+                            
                             <div className="card-actions">
-                                <button className="btn btn-accent">Details</button>
+                                <Link to={`/portfolio/${project._id}`}><button className="btn btn-accent">Details</button></Link>
                             </div>
                         </div>
                     </div>)

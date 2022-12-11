@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import logo from '../../../assets/logo/logo.png';
 
@@ -7,6 +8,8 @@ const Navbar = () => {
     const menuItems = <>
         <li><HashLink smooth to='/#home'>Home</HashLink></li>
         <li><HashLink smooth to='/#portfolio'>Portfolio</HashLink></li>
+        <li><HashLink smooth to='/#about'>About</HashLink></li>
+        <li><Link smooth to='/blogs'>Blogs</Link></li>
         <li><HashLink smooth to='/#contact'>Contact</HashLink></li>
     </>
     return (
@@ -23,7 +26,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <a className="btn btn-ghost normal-case text-xl"><img width={40} src={logo} alt="" /></a>
+                    <Link to='/' className="btn btn-ghost normal-case text-xl"><img width={40} src={logo} alt="" /></Link>
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle">

@@ -18,7 +18,7 @@ const Contact = () => {
     };
     return (
         <div id='contact'>
-            <div className="hero min-h-screen bg-base-200">
+            <div className="hero min-h-screen">
                 <div className="hero-content">
                     <div className="card flex-shrink-0 w-full shadow-3xl bg-base-100">
                         <div className="card-body">

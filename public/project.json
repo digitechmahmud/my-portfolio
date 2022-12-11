@@ -1,6 +1,5 @@
 [
     {
-        "_id": "639436c28a95fe30c7f8d063",
         "img": "https://i.ibb.co/4V1wRdn/oldbiker.jpg",
         "name": "Old Biker",
         "feture1": "Firebase authentication system",
@@ -8,7 +7,6 @@
         "feture3": "Manage dashboard for Admin, Buyers & Sellers"
     },
     {
-        "_id": "639436c2a876836fd80dc7e5",
         "img": "https://i.ibb.co/hYcrCQ1/civicphotography.jpg",
         "name": "Civic-Photography",
         "feture1": "Photography services create and store it in the database and get it from server API",
@@ -16,7 +14,6 @@
         "feture3": "Also, users can edit and delete their reviews"
     },
     {
-        "_id": "639436c284e192e32aee742d",
         "img": "https://i.ibb.co/gj6Rc15/encode.jpg",
         "name": "Encode-Tutorial",
         "feture1": "Educational Course anyone can join or download a pdf tutorial",
