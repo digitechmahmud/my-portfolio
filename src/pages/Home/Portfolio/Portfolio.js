@@ -9,8 +9,8 @@ const Portfolio = () => {
             .then(data => setProjects(data));
     },[])
     return (
-        <div id='portfolio'>
-            <h2 className='text-center font-bold text-3xl mt-10'>My Projects</h2>
+        <div id='portfolio' className='min-h-screen'>
+            <h2 className='text-center font-bold text-3xl mb-10'>My Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
                 {
                     projects.map(project => <div className="card w-96 bg-base-100 shadow-xl border-spacing-2 border-white">

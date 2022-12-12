@@ -7,11 +7,11 @@ const Banner = () => {
     
     return (
         <div id='home'>
-            <div className="hero min-h-screen" style={{ backgroundImage: `url(${banner})` }}>
-                <div className="hero-overlay bg-opacity-60"></div>
+            <div className=" min-h-screen">
+                <div className="hero-overlay"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="">
-                        <h2 className='text-5xl font-bold'>HEY, I'M MAHMUDUL HASSAN</h2>
+                        <h2 className='text-5xl font-bold mt-48'>HEY, I'M MAHMUDUL HASSAN</h2>
                         <h3 className='text-2xl font-bold'>
                             <Typical
                                 steps={["MERN Stack Developer", 2000, 'JavaScript Developer', 2000]}
