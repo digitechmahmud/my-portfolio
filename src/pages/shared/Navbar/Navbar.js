@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><HashLink smooth to='/#contact'>Contact</HashLink></li>
     </>
     return (
-        <div className='mb-20'>
+        <div className=''>
             <div className="navbar z-10 top-0 fixed">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -26,7 +26,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center">
-                    <Link to='/' className="btn btn-ghost normal-case text-xl"><img width={40} src={logo} alt="" /></Link>
+                    <Link to='/#home' className="btn btn-ghost normal-case text-xl"><img width={40} src={logo} alt="" /></Link>
                 </div>
                 <div className="navbar-end">
                     <button className="btn btn-ghost btn-circle">

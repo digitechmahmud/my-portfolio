@@ -18,9 +18,9 @@ const Contact = () => {
     };
     return (
         <div id='contact'>
-            <div className="hero min-h-screen">
+            <div className=" min-h-screen">
                 <div className="hero-content">
-                    <div className="card flex-shrink-0 w-full shadow-3xl bg-base-100">
+                    <div className="card flex-shrink-0 w-1/2 ">
                         <div className="card-body">
                             <h2 className='text-center font-bold text-3xl'>Contact Form</h2>
                             <form ref={form} onSubmit={sendEmail}>
