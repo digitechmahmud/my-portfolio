@@ -6,7 +6,7 @@ const ProtfolioDetails = () => {
     const projectDetails = useLoaderData();
     
     return (
-        <div className='mt-10 mb-10'>
+        <div className='mb-10'>
             {
                 projectDetails.map(project =>
                     <div>
