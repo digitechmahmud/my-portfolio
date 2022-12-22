@@ -1,8 +1,14 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { toast, Toaster } from 'react-hot-toast';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -18,7 +24,7 @@ const Contact = () => {
     };
     return (
         <div id='contact'>
-            <div className=" min-h-screen">
+            <div className=" min-h-screen" data-aos='fade-down'>
                 <div className="hero-content">
                     <div className="card flex-shrink-0 w-1/2 ">
                         <div className="card-body">

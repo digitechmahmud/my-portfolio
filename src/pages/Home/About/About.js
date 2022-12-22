@@ -1,11 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import about from '../../../assets/images/about.jpg';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     return (
         <div id='about'>
-            <div className=" min-h-screen">
-                <div className="hero-content  flex-col lg:flex-row-reverse">
+            <div className=" min-h-screen" data-aos='fade-down'>
+                <div className="hero-content  flex-col lg:flex-row-reverse" data-aos='fade-right'>
                     <img src={about} alt='' className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold">About Me</h1>
