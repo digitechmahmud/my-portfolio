@@ -1,13 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Typical from 'react-typical';
-import banner from '../../../assets/images/bg.png';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 
 const Banner = () => {
-    
+    useEffect(() => {
+        AOS.init({ duration: 2000 });
+    }, [])
     return (
         <div id='home'>
-            <div className=" min-h-screen">
+            <div className=" min-h-screen" data-aos='fade-down'>
                 <div className="hero-overlay"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="">
