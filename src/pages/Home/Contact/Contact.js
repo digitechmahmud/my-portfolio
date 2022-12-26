@@ -32,18 +32,18 @@ const Contact = () => {
                             <form ref={form} onSubmit={sendEmail}>
                                 <div className="form-control">
                                     <label>Name</label>
-                                    <input className="input input-bordered" type="text" name="user_name" required/>
+                                    <input className="input input-bordered bg-blue-900" type="text" name="user_name" required/>
                                 </div>
                                 <div className="form-control">
                                     <label>Email</label>
-                                    <input className="input input-bordered" type="email" name="user_email" required/>
+                                    <input className="input input-bordered bg-blue-900" type="email" name="user_email" required/>
                                 </div>
                                 <div className="form-control">
                                     <label>Message</label>
-                                    <textarea name="message" />
+                                    <textarea name="message" className='bg-blue-900' />
                                 </div>
                                 <div className="form-control mt-6">
-                                    <button className="btn btn-accent">Submit</button>
+                                    <button className="btn btn-secondary bg-blue-900">Submit</button>
                                 </div>
                             </form>
                             <Toaster/>
