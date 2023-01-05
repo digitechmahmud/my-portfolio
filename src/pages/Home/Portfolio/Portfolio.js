@@ -6,7 +6,7 @@ import 'aos/dist/aos.css';
 const Portfolio = () => {
     const [projects, setProjects] = useState([]);
     useEffect(() => {
-        fetch('https://my-portfolio-server-gamma.vercel.app/portfolio')
+        fetch('https://my-portfolio-server-digitechmahmud.vercel.app/portfolio')
             .then(res => res.json())
             .then(data => setProjects(data));
     }, [])

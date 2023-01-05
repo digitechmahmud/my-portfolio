@@ -11,7 +11,7 @@ const About = () => {
     return (
         <div id='about'>
             <div className=" min-h-screen" data-aos='fade-down'>
-                <div className="hero-content  flex-col lg:flex-row-reverse" data-aos='fade-right'>
+                <div className="hero-content  flex-col lg:flex-row-reverse" data-aos='fade-top'>
                     <img src={about} alt='' className="max-w-sm rounded-lg shadow-2xl" />
                     <div>
                         <h1 className="text-5xl font-bold">About Me</h1>
