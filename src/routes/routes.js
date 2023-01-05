@@ -16,7 +16,7 @@ export const router = createBrowserRouter([
             {
                 path: '/portfolio/:id',
                 element: <ProtfolioDetails></ProtfolioDetails>,
-                loader: ({ params }) => fetch(`https://my-portfolio-server-gamma.vercel.app/portfolio/details/${params.id}`)
+                loader: ({ params }) => fetch(`https://my-portfolio-server-digitechmahmud.vercel.app/portfolio/details/${params.id}`)
                 
             },
             {
