@@ -9,10 +9,9 @@ const Banner = () => {
         AOS.init({ duration: 2000 });
     }, [])
     return (
-        <div id='home'>
-            <div className=" min-h-screen" data-aos='fade-down'>
-                <div className="hero-overlay"></div>
-                <div className="hero-content text-center text-neutral-content">
+        <div id='home' className="min-h-screen">
+            <div className="hero-overlay bg-opacity-60"></div>
+                <div className="hero-content text-left text-neutral-content">
                     <div className="">
                         <h2 className='text-5xl font-bold mt-48'>HEY, I'M MAHMUDUL HASSAN</h2>
                         <h3 className='text-2xl font-bold'>
@@ -26,7 +25,6 @@ const Banner = () => {
                         <a href='https://drive.google.com/uc?export=download&id=1Eass99E3KSDLh0wURS0g9t-6zco1q8T9'><button className="btn btn-accent">Download Resume</button></a>
                     </div>
                 </div>
-            </div>
         </div>
     );
 };
