@@ -2,7 +2,8 @@ import React, { useEffect } from 'react';
 import about from '../../../assets/images/about.jpg';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import { FaJsSquare } from "react-icons/fa";
+import { FaJsSquare, FaReact, FaNodeJs, FaDatabase } from "react-icons/fa";
+import { SiRedux, SiFirebase } from "react-icons/si";
 
 const About = () => {
 
@@ -31,25 +32,33 @@ const About = () => {
             <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow rounded-box place-items-center w-full"><img className='rounded-xl' src={about} width={320} alt="" /></div>
                 <div className="divider pr-10 lg:divider-horizontal">OR</div>
-                <div className="mt-12 grid flex-grow  card rounded-box w-full mr-10">
+                <div className="mt-10 grid flex-grow  card rounded-box w-full mr-10">
                     <div>
-                        <h3 className='font-bold text-2xl'>Hi, my name is Mahmudul Hassan</h3><br/>
-                        <p className='font-medium text-xl text-justify text-white'>A self-motivated MERN stack developer. Being a fast learner, I am always looking to learn new technologies and constantly trying to keep up with new trends. I bring ideas to life with excellent design & coding skills. I have the positive attitude and expertise to assist you with any project, regardless of how small or large it might be.</p><br/>
-                        <p className='font-medium text-xl text-justify text-white'>Among my areas of expertise are:</p>
+                        <h3 className='font-semibold text-2xl text-slate-200'>Hi, my name is Mahmudul Hassan</h3><br/>
+                        <p className='font-light text-xl text-justify text-slate-200'>A self-motivated MERN stack developer. Being a fast learner, I am always looking to learn new technologies and constantly trying to keep up with new trends. I bring ideas to life with excellent design & coding skills. I have the positive attitude and expertise to assist you with any project, regardless of how small or large it might be.</p><br/>
+                        <p className='font-medium text-xl text-justify text-slate-200'>Among my areas of expertise are:</p><br/>
                         <div className='grid grid-cols-1 md:grid-cols-2'>
-                            <div >
+                            <div  className='font-semibold text-xl text-slate-200 w-1/2'>
                                 <div className='flex'>
                                     <><FaJsSquare className='mt-1 mx-2' />JavaScript</>
                                 </div>
                                 <div className='flex'>
-                                    <><FaJsSquare className='mt-1 mx-2' />JavaScript</>
+                                    <><FaReact className='mt-1 mx-2' />ReactJS</>
                                 </div>
                                 <div className='flex'>
-                                    <><FaJsSquare className='mt-1 mx-2' />JavaScript</>
+                                    <><FaNodeJs className='mt-1 mx-2' />NodeJS</>
                                 </div>
                             </div>
-                            <div>
-
+                            <div className='w-1/2 font-semibold text-xl text-slate-200 '>
+                                <div className='flex'>
+                                    <><FaDatabase className='mt-1 mx-2' />MongoDB</>
+                                </div>
+                                <div className='flex'>
+                                    <><SiFirebase className='mt-1 mx-2' />Firebase</>
+                                </div>
+                                <div className='flex'>
+                                    <><SiRedux className='mt-1 mx-2' />Redux</>
+                                </div>
                             </div>
                        </div>
                     </div>
