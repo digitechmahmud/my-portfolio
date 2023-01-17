@@ -31,7 +31,7 @@ const About = () => {
         <div id='about' data-aos='fade-down' className='min-h-screen'>
             <div className="flex flex-col w-full lg:flex-row">
                 <div className="grid flex-grow rounded-box place-items-center w-full"><img className='rounded-xl' src={about} width={320} alt="" /></div>
-                <div className="divider pr-10 lg:divider-horizontal">OR</div>
+                <div className="divider pr-10 lg:divider-horizontal"> = </div>
                 <div className="mt-10 grid flex-grow  card rounded-box w-full mr-10">
                     <div>
                         <h3 className='font-semibold text-2xl text-slate-200'>Hi, my name is Mahmudul Hassan</h3><br/>
