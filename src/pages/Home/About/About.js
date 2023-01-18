@@ -28,8 +28,9 @@ const About = () => {
         //         </div>
         //     </div>
         // </div>
-        <div id='about' data-aos='fade-down' className='min-h-screen'>
-            <div className="flex flex-col w-full lg:flex-row">
+        <div id='about' data-aos='fade-down' className='min-h-screen '>
+            <h2 className='font-bold text-3xl underline md:mx-40'>About Me</h2>
+            <div className="flex flex-col w-full lg:flex-row mt-10">
                 <div className="grid flex-grow rounded-box place-items-center w-full"><img className='rounded-xl' src={about} width={320} alt="" /></div>
                 <div className="divider pr-10 lg:divider-horizontal"> = </div>
                 <div className="mt-10 grid flex-grow  card rounded-box w-full mr-10">

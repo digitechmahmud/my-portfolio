@@ -39,13 +39,42 @@ const Portfolio = () => {
         <div id='portfolio' data-aos='fade-down' className='min-h-screen md:mx-36'>
             <h2 className='font-bold text-3xl underline'>My Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6'>
-                <div className='w-1/2 mt-20 text-slate-300'>
+                <div className='mt-20 text-slate-300'>
                     <h3 className='text-2xl font-semibold mb-5'>Old Biker</h3>
-                    <a target="_blank" rel='noreferrer' href="https://github.com/digitechmahmud/Old-BIker"><FaGithub className='text-3xl'/></a>
-                    <a target='_blank' rel='noreferrer' href="https://oldbiker-5c1ba.web.app/"><FaExternalLinkAlt className='text-3xl'/></a>
+                    <div className='flex mb-5'>
+                        <a target="_blank" rel='noreferrer' href="https://github.com/digitechmahmud/Old-BIker"><FaGithub className='text-2xl mr-2' /></a>
+                        <a target='_blank' rel='noreferrer' href="https://oldbiker-5c1ba.web.app/"><FaExternalLinkAlt className='text-2xl' /></a>
+                    </div>
+                    <p className='font-light text-xl text-justify text-slate-200'>Old Biker is a store that buy/sale used motorbike. It has Firebase authentication system, Manage dashboard for Admin, Buyers & Sellers. Technology Used: React, Express.js, MongoDB, Firebase</p>
                 </div>
-                <div className='w-1/2'>
-                    <h3>asdfasdf</h3>
+                <div className='mt-20'>
+                    <img src="https://i.ibb.co/4V1wRdn/oldbiker.jpg" alt="" />
+                </div>
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6'>
+                <div className='mt-20'>
+                    <img src="https://i.ibb.co/hYcrCQ1/civicphotography.jpg" alt="" />
+                </div>
+                <div className='mt-20 text-slate-300'>
+                    <h3 className='text-2xl font-semibold mb-5'>Civic-Photography</h3>
+                    <div className='flex mb-5'>
+                        <a target="_blank" rel='noreferrer' href="https://github.com/digitechmahmud/Civic-Photography-Service"><FaGithub className='text-2xl mr-2' /></a>
+                        <a target='_blank' rel='noreferrer' href="https://civic-photography.web.app/"><FaExternalLinkAlt className='text-2xl' /></a>
+                    </div>
+                    <p className='font-light text-xl text-justify text-slate-200'>Photography services create and store it in the database and get it from server API. Logged-in users can review in-service separately. Technology Used: React, Express.js, Firebase, MongoDB</p>
+                </div> 
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6'>
+                <div className='mt-20 text-slate-300'>
+                    <h3 className='text-2xl font-semibold mb-5'>Old Biker</h3>
+                    <div className='flex mb-5'>
+                        <a target="_blank" rel='noreferrer' href="https://github.com/digitechmahmud/Old-BIker"><FaGithub className='text-2xl mr-2' /></a>
+                        <a target='_blank' rel='noreferrer' href="https://oldbiker-5c1ba.web.app/"><FaExternalLinkAlt className='text-2xl' /></a>
+                    </div>
+                    <p className='font-light text-xl text-justify text-slate-200'>Old Biker is a store that buy/sale used motorbike. It has Firebase authentication system, Manage dashboard for Admin, Buyers & Sellers. Technology Used: React, Express.js, MongoDB, Firebase</p>
+                </div>
+                <div className='mt-20'>
+                    <img src="https://i.ibb.co/4V1wRdn/oldbiker.jpg" alt="" />
                 </div>
             </div>
         </div>
