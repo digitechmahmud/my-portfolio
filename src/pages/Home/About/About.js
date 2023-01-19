@@ -29,7 +29,7 @@ const About = () => {
         //     </div>
         // </div>
         <div id='about' data-aos='fade-down' className='min-h-screen '>
-            <h2 className='font-bold text-3xl underline md:mx-40'>About Me</h2>
+            <h2 className='font-bold text-3xl underline md:mx-40 text-slate-300'>About Me</h2>
             <div className="flex flex-col w-full lg:flex-row mt-10">
                 <div className="grid flex-grow rounded-box place-items-center w-full"><img className='rounded-xl' src={about} width={320} alt="" /></div>
                 <div className="divider pr-10 lg:divider-horizontal"> = </div>

@@ -12,7 +12,7 @@ const Banner = () => {
         <div id='home' className="min-h-screen">
             <div className="hero-overlay bg-opacity-60"></div>
                 <div className="hero-content text-left text-neutral-content">
-                    <div className="">
+                    <div className="text-slate-300">
                         <h2 className='text-5xl font-bold mt-48'>HEY, I'M MAHMUDUL HASSAN</h2>
                         <h3 className='text-2xl font-bold'>
                             <Typical
