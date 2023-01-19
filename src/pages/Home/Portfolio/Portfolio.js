@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import Tilt from 'react-tilt';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -47,14 +48,20 @@ const Portfolio = () => {
                     </div>
                     <p className='font-light text-xl text-justify text-slate-200'>Old Biker is a store that buy/sale used motorbike. It has Firebase authentication system, Manage dashboard for Admin, Buyers & Sellers. Technology Used: React, Express.js, MongoDB, Firebase</p>
                 </div>
-                <div className='mt-20'>
-                    <img src="https://i.ibb.co/4V1wRdn/oldbiker.jpg" alt="" />
+                <div className='mt-20 ml-10'>
+                    <Tilt className="Tilt" options={{ max: 25 }} style={{ height: 250, width: 500 }} >
+                        <div className="Tilt-inner"><img className='rounded-xl' src="https://i.ibb.co/4V1wRdn/oldbiker.jpg" alt="" /></div>
+                    </Tilt>
                 </div>
+                
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6'>
-                <div className='mt-20'>
-                    <img src="https://i.ibb.co/hYcrCQ1/civicphotography.jpg" alt="" />
+                <div className='mt-20 mr-10'>
+                    <Tilt className="Tilt" options={{ max: 25 }} style={{ height: 250, width: 500 }} >
+                        <div className="Tilt-inner"><img className='rounded-xl' src="https://i.ibb.co/hYcrCQ1/civicphotography.jpg" alt="" /></div>
+                    </Tilt>
                 </div>
+                
                 <div className='mt-20 text-slate-300'>
                     <h3 className='text-2xl font-semibold mb-5'>Civic-Photography</h3>
                     <div className='flex mb-5'>
@@ -73,8 +80,10 @@ const Portfolio = () => {
                     </div>
                     <p className='font-light text-xl text-justify text-slate-200'>Old Biker is a store that buy/sale used motorbike. It has Firebase authentication system, Manage dashboard for Admin, Buyers & Sellers. Technology Used: React, Express.js, MongoDB, Firebase</p>
                 </div>
-                <div className='mt-20'>
-                    <img src="https://i.ibb.co/4V1wRdn/oldbiker.jpg" alt="" />
+                <div className='mt-20 ml-10'>
+                    <Tilt className="Tilt" options={{ max: 25 }} style={{ height: 250, width: 500 }} >
+                        <div className="Tilt-inner"><img className='rounded-xl' src="https://i.ibb.co/4V1wRdn/oldbiker.jpg" alt="" /></div>
+                    </Tilt>
                 </div>
             </div>
         </div>
