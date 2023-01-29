@@ -14,13 +14,13 @@ const Banner = () => {
                 <div className="hero-content text-left text-neutral-content">
                     <div className="text-slate-300">
                         <h2 className='text-5xl font-bold mt-48'>HEY, I'M MAHMUDUL HASSAN</h2>
-                        <h3 className='text-2xl font-bold'>
+                        <h3 className='text-4xl font-bold'>
                             <Typical
                                 steps={["MERN Stack Developer", 2000, 'JavaScript Developer', 2000]}
                                 loop={Infinity}
                                 wrapper="p"
                             />
-                        </h3>
+                        </h3><br/>
                         <p className="mb-5">A Frontend focused Web Developer building the Frontend of Websites and<br/> Web Applications that leads to the success of the overall product</p>
                         <a href='https://drive.google.com/uc?export=download&id=1Eass99E3KSDLh0wURS0g9t-6zco1q8T9'><button className="btn btn-accent">Download Resume</button></a>
                     </div>

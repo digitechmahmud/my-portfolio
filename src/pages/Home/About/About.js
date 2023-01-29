@@ -40,7 +40,7 @@ const About = () => {
                         <p className='font-medium text-xl text-justify text-slate-200'>Among my areas of expertise are:</p><br/>
                         <div className='grid grid-cols-1 md:grid-cols-2'>
                             <div  className='font-semibold text-xl text-slate-200 w-1/2'>
-                                <div className='flex'>
+                                <div className='flex text-xl'>
                                     <><FaJsSquare className='mt-1 mx-2' />JavaScript</>
                                 </div>
                                 <div className='flex'>
